@@ -1,0 +1,24 @@
+ 
+.butt {
+ border: 3px solid #218294;
+ font-size: 30px;
+ color: #218294;
+ text-decoration: none;
+ text-transform: uppercase;
+ width: 250px;
+ height: 60px;
+ display: block;
+ text-align: center;
+
+ font-family: Arial, sans-serif;
+}    
+.butt::before {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ background: #218294;
+ top: 0;
+ left: -100%;
+ opacity: .5;
+}    
